@@ -1,5 +1,6 @@
-# GA_reporting_API
+# User_Deletion_Sheet
 Use google analytics reporting api to fetch data from GA
+Then upload the result to Google Spread Sheet
 * gaData.py
   - Have functions for connecting to GA and fetching data avoiding sampling.
     - To avoid sampling in each API request, something called nextPageToken has been used to enable more than 10,000 results in each API request.

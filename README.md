@@ -1,5 +1,5 @@
 # User_Deletion_Sheet
-Use google analytics reporting api to fetch data from GA
+Use google analytics reporting api to fetch data from GA.
 Then upload the result to Google Spread Sheet
 * gaData.py
   - Have functions for connecting to GA and fetching data avoiding sampling.
@@ -37,7 +37,8 @@ Then upload the result to Google Spread Sheet
                   filename
                   )
 
-* Get_ClientID_List.ipynb
+* Automate_User_Deletion.ipynb
   - A Jupyter Notebook template for how to use gaData.py to get data from GA
+  - how to upload dataframe to Google Spread Sheet
 * key
   - a folder you should put your own client credentials

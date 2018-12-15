@@ -1,5 +1,8 @@
 # User_Deletion_Sheet
 Use google analytics reporting api to fetch data from GA.
+
+Read more about this at https://jingsblog.com/2018/12/06/delete-user-with-google-analytics-user-deletion-api-to-be-gdpr-compliant/
+
 Then upload the result to Google Spread Sheet
 * gaData.py
   - Have functions for connecting to GA and fetching data avoiding sampling.
